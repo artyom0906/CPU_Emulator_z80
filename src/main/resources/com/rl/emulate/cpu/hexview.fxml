@@ -4,15 +4,15 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.cell.PropertyValueFactory?>
 
-<TableView id="hextable" fx:id="viewer" maxWidth="5700.0" prefHeight="420.0" prefWidth="600.0" style="-fx-background-color: gray;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rl.emulate.cpu.hexviewcontroller">
+<TableView id="hextable" fx:id="viewer" maxWidth="5700.0" prefHeight="420.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rl.emulate.cpu.hexviewcontroller">
     <columns>
-        <TableColumn id="addresscol" maxWidth="5000.0" minWidth="10.0" prefWidth="75.0" text=" ">
+        <TableColumn id="addresscol" maxWidth="5000.0" minWidth="10.0" prefWidth="55.0" text=" ">
             <cellValueFactory>
                 <PropertyValueFactory property="address" />
             </cellValueFactory>
         </TableColumn>
 
-        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" style="-fx-background-color: gray;" text="0">
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="25.0" text="0">
             <cellValueFactory>
                 <PropertyValueFactory property="b0" />
             </cellValueFactory>
