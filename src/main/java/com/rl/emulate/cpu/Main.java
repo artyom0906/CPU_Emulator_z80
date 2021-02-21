@@ -16,6 +16,8 @@ public class Main extends Application {
         primaryStage.setScene(scene);
         primaryStage.setMaximized(true);
         primaryStage.show();
+        scene.getStylesheets().add(Main.class.getResource("java-keywords.css").toExternalForm());
+
     }
 
 
